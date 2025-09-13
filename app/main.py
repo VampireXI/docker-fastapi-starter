@@ -20,9 +20,9 @@ async def health_check():
 @app.get("/", tags=["Pages"])
 async def read_root(request: Request):
     sample_cards = [
-        {"name": "Wichy", "description": "Software Engineer"},
-        {"name": "Ai", "description": "Software Engineer"},
-        {"name": "Bank", "description": "Software Engineer"},
+        {"name": "แก๊ป", "description": "Software Engineer"},
+        {"name": "แก๊ปโว้ยยย", "description": "Software Engineer"},
+        {"name": "กูชื่อแก๊ปปปป", "description": "Software Engineer"},
     ]
     return templates.TemplateResponse(
         "index.html",
